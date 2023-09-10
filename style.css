@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-right: 0px auto;
+  margin-bottom: 0px auto;
+  margin-left: 0px auto;
+  text-align: center;
+  width: 100%;
+}
+.top-cloud {
+  position: relative;
+  left: 200px;
+}
+
+h1 {
+  color: lightseagreen;
+  font-size: 2.5rem;
+  margin: 30px auto 0 auto;
+  font-family: "Pacifico", cursive;
+}
+h2 {
+  color: lightseagreen;
+  font-size: 2.5rem;
+
+  font-family: "Libre Baskerville", serif;
+}
+.bottom-cloud {
+  position: relative;
+  bottom: 200px;
+  right: 350px;
+}
+
+.top-container {
+  background-color: bisque;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+p {
+  line-height: 2;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 15px;
+}
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+}
+h3 {
+  margin: 15px;
+  color: brown;
+  font-family: "Libre Baskerville", serif;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin: 15px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 70px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+.techsupport-img {
+  margin-top: 40px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.tech-support {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 70px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+div {
+  display: block;
+}
+.button {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 20px;
+  background-color: brown;
+  color: white;
+  border: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+.bottom-container {
+  background-color: deepskyblue;
+  padding: 50px 0 20px;
+  width: 100%;
+}
+.footer-link {
+  color: blueviolet;
+  margin: 10px 20px;
+}
+.copyright {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+    .top-cloud,
+    .bottom-cloud {
+      display: none; /* Hide clouds on mobile */
+    }
+  
+    h1,
+    h2 {
+      font-size: 1.5rem; /* Decrease font size for mobile */
+    }
+  
+    hr {
+      width: 40%; /* Decrease width for mobile */
+    }
+  
+    .parent,
+    .tech-support {
+      width: 90%; /* Adjust width for mobile */
+    }
+  
+    .techsupport-img {
+      margin-top: 10px; /* Adjust margin for mobile */
+    }
+  
+    .button {
+      margin: 20px auto; /* Adjust margin for mobile */
+    }
+  }
